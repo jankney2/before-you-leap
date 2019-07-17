@@ -9,6 +9,7 @@ export default class Hero extends Component {
 
         <div className="heroImage">
           look it's the big image here in the background/image carousel
+          
         </div>
 
 <button>Get help from joel</button>
