@@ -1,11 +1,13 @@
-import React from 'react';
-import './App.css';
-import routes from './routes'
-import {HashRouter} from 'react-router-dom'
+import React from "react";
+import "./App.css";
+import routes from "./routes";
+import NavBar from "./clientView/NavBar";
+import { HashRouter } from "react-router-dom";
 function App() {
   return (
     <HashRouter>
-{routes}
+      <NavBar />
+      {routes}
     </HashRouter>
   );
 }
